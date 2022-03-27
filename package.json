@@ -6,7 +6,8 @@
   "homepage": "https://razarajwani.github.io/hrangularapi",
   "scripts": {
     "start": "node app.js",
-    "dev": "nodemon app.js"
+    "dev": "nodemon app.js",
+    "deploy":"gh-pages -d build"
   },
   "author": "",
   "license": "ISC",
